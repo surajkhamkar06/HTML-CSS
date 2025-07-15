@@ -1,0 +1,92 @@
+Block Level element :- Those elements which takes 100% width of the  view port those elements are known as block level element.
+
+Inline level element:- Those element which takes only the width of its content is known as inline level element.
+The element will start just next to that element.
+
+-Those element which takes only the width of its content but the next element will still start from a new line.
+
+26/06/2024
+
+1) What is CSS ?
+  CSS stands for Cascading Stylesheets.
+  CSS is used to add styles and Alignment to the web pages
+  The current and standard version CSS is 3.
+  CSS is used to make our pages responsible.
+
+2)History of CSS:-
+  1) CSS is was Created in 1994 and launched in 1996.
+  2) computer scientists heckon viuflie created CSS.
+
+-There are three ways to right CSS:-
+i) Inline CSS:-
+    - When we write CSS inside the Opening tag within style Attribute is known as Inline CSS.
+    - EX:- <h1 style="background-color: black" </h1>
+
+ii) Internal CSS:-
+    - When we write CSS inside the head tag within the style Attribute is known as Internal CSS.
+    - EX:- <head>
+               <style>
+                   background-color : black ;
+               </style>
+           </head>
+        <body>
+           <h1 id="text"> Hello </h1>
+        </body>
+
+iii) External CSS:-
+    - when we write CSS outside of html file by creating a new file with extension .CSS that is known as External CSS.
+    - Ex:- 
+         .html:-
+         <p> I am Suraj Khamkar. i am from Ahilyanagar.</p>
+   
+         .CSS :-
+         p {
+             font-size : 200px;
+             font-weight : 600;
+           }
+
+27/06/2024
+
+* Selectors :-
+   -selectors are used to target the elements in order to and CSS properties to that element.
+
+   -There are 5 types of selectors :-
+     1)Simple Selector
+     2)Combinator Selector
+     3)Pseudo class Selector
+     4)Pseudo element  Selector
+     5)Attribute Selector
+
+1) Simple Selector :- 
+   -There are three different selectors in Simple Selectors:-
+
+    i)id Selector:-
+        - id selector is denoted by #.
+        - id should be unique for each element.
+        - Ex:- <h1 id="name"> Good Morning </h1>
+               #name
+     
+    ii) Class Selector:-
+        - class Selector is denoted by Dot(.).
+        - we can have duplicate name for the class.
+        - if we want to add same CSS to different element we can give same class name to different 
+          elements.
+        - Ex:- <h1 class="heading"> CSS is interesting </h1>
+               <p class="heading">-------</p>
+               .heading
+                {
+                  background-color: black;
+                  color: white;
+                }
+       
+     iii) Tagname selector :-
+          - Tagname selector is denoted by name of the tag.
+          - we will directly target the element using the tag name.
+          - Ex:- <h1> Hello World </h1>
+               h1
+                {
+                  color: white;
+                }
+
+
+  
